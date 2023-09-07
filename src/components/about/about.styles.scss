@@ -1,0 +1,32 @@
+
+.about-container {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   height: 800px;
+   
+   .about{
+    font-family: 'Chivo', sans-serif;
+    font-weight: 200;
+    font-size: 1.5cm;
+    color: antiquewhite;
+   }
+
+   .Typewriter{
+    text-align: center;
+    font-family: 'Chivo', sans-serif;
+    font-size: 1cm;
+    color: antiquewhite;
+    }
+
+    .icons{
+        max-width: 750px;
+        margin: 0 auto;
+    }
+    
+    h3{
+        color: azure;
+    }
+
+}
+

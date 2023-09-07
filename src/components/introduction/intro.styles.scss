@@ -1,0 +1,28 @@
+.me{
+    display: block;
+}
+
+.me > *{
+    padding: 1rem;
+}
+
+@media (min-width:768px){
+    .me{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+h1{
+    text-align: center;
+    color: antiquewhite;
+}
+
+p{
+    text-align: center;
+}
+
+span{
+    color: antiquewhite;
+    color: #520fc6;
+}

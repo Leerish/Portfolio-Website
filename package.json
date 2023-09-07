@@ -1,0 +1,73 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emailjs/browser": "^3.11.0",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.4.2",
+    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mantine/carousel": "^6.0.19",
+    "@mantine/core": "^6.0.19",
+    "@mantine/hooks": "^6.0.19",
+    "@mui/icons-material": "^5.14.8",
+    "@mui/lab": "^5.0.0-alpha.141",
+    "@mui/material": "^5.14.8",
+    "@mui/styled-engine-sc": "^5.14.6",
+    "@react-three/drei": "^9.82.0",
+    "@react-three/fiber": "^8.14.1",
+    "@tabler/icons-react": "^2.32.0",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "^5.3.1",
+    "emailjs": "^4.0.2",
+    "framer-motion": "^10.16.1",
+    "gasp": "^0.0.2",
+    "install": "^0.13.0",
+    "locomotive-scroll": "^5.0.0-beta.8",
+    "maath": "^0.7.0",
+    "npm": "^9.8.1",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.8.0",
+    "react-dom": "^18.2.0",
+    "react-on-screen": "^2.1.1",
+    "react-router-dom": "^6.15.0",
+    "react-scripts": "5.0.1",
+    "react-tilt": "^1.0.2",
+    "sass": "^1.66.1",
+    "styled-components": "^5.3.11",
+    "typewriter-effect": "^2.20.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.3.3"
+  }
+}
