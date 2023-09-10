@@ -3,6 +3,7 @@ import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../../assets/p1.png";
 import projImg2 from "../../assets/p2.png";
 import projImg3 from "../../assets/p3.png";
+import projImg4 from "../../assets/p4.png";
 import './project.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -22,10 +23,10 @@ export const Projects = () => {
       githubUrl:"https://patient-management-cli.vercel.app/"
     },
     {
-      title: "Background Generator",
-      description: "Gradient Backround Generator using HTML , CSS , Js",
-      imgUrl: projImg3,
-      githubUrl:"https://backgroundonline.vercel.app/"
+      title: "QR Attendance System",
+      description: "Attendance system for clubs and organizations made using NextJS",
+      imgUrl: projImg4,
+      githubUrl:"https://qr-attendance-based-system-emmanuelallanmj.vercel.app/"
     },
     
   ];
