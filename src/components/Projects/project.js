@@ -2,7 +2,7 @@ import { Container, Row, Col, Tab  } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import projImg1 from "../../assets/p1.png";
 import projImg2 from "../../assets/p2.png";
-import projImg3 from "../../assets/p3.png";
+
 import projImg4 from "../../assets/p4.png";
 import './project.css';
 import TrackVisibility from 'react-on-screen';
@@ -12,21 +12,24 @@ export const Projects = () => {
   const projects = [
     {
       title: "E-commerce Web App",
-      description: "Full Stack App made using ReactJS, Firebase",
+      description: "Full Stack App made using ReactJS, Firebase and Stripe",
       imgUrl: projImg1,
-      githubUrl:"https://ecommerce-web-ivory.vercel.app/shop"
+      githubUrl:"https://ecommerce-web-ivory.vercel.app/shop",
+      link:"https://github.com/Leerish/Ecommerce_Web"
     },
     {
       title: "Patient-Clinic Management",
       description: "Clinic Management System made using HTML ,CSS , Js , MySQL",
       imgUrl: projImg2,
-      githubUrl:"https://patient-management-cli.vercel.app/"
+      githubUrl:"https://patient-management-cli.vercel.app/",
+      link:"https://github.com/Leerish/Patient_Management_cli"
     },
     {
       title: "QR Attendance System",
       description: "Attendance system for clubs and organizations made using NextJS",
       imgUrl: projImg4,
-      githubUrl:"https://qr-attendance-based-system-emmanuelallanmj.vercel.app/"
+      githubUrl:"https://qr-attendance-based-system-emmanuelallanmj.vercel.app/",
+      link:"https://github.com/Leerish/QR-Attendance-Based-System"
     },
     
   ];
@@ -46,7 +49,7 @@ export const Projects = () => {
                     
             
                   <Tab.Content id="slideInUp" className={isVisible ? "animate__animated animate__slideInUp" : ""}>
-                    <Tab.Pane eventKey="first">
+                    
                       <Row>
                         {
                           projects.map((project, index) => {
@@ -59,7 +62,7 @@ export const Projects = () => {
                           })
                         }
                       </Row>
-                    </Tab.Pane>
+                    
                     
                   </Tab.Content>
                 </Tab.Container>

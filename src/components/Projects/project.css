@@ -150,3 +150,7 @@ background-image: linear-gradient(147deg, #c3cbdc 0%, #edf1f4 74%);
   right: 0;
   z-index: -4;
 }
+
+.button {
+  margin-right: 10px;
+}
