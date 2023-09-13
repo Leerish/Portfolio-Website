@@ -1,4 +1,4 @@
-.navbar {
+ .navbar {
     width: 100%;
     height: 100px;
     
@@ -88,3 +88,64 @@
       flex-direction: row;
     }
   }
+
+  /* navbar.styles.css */
+
+.navbar {
+  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+.links {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.links > li {
+  margin-right: 20px;
+}
+
+.links > li:last-child {
+  margin-right: 0;
+}
+
+.links > li > a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.toggleButton {
+  display: none; /* Hide the toggle button by default */
+}
+
+@media screen and (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .toggleButton {
+    display: block; /* Show the toggle button for mobile */
+  }
+
+  .links-mobile {
+    display: none;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .links {
+      flex-direction: column;
+      width: 100%;
+    }
+  
+    .links.active-mobile {
+      display: flex;
+    }
+  }
+} 

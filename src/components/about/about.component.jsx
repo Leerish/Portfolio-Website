@@ -23,8 +23,8 @@ const About =()=>{
     return(
         <div className='about-container'>
             <div className='about-text'>
-                <h3>Hey There 🚀</h3>
-                <h1 className = 'about'>I'm L E E R I S H ✨</h1>
+                <h3>Hey There</h3>
+                <h1 className = 'about'>I'm Leerish Arvind</h1>
                 <Typewriter
                     options={{
                         strings:Bio.roles,
